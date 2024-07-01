@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser')
 require('dotenv').config();
 const router = require("./routes");
 
-// const dbUrl ="mongodb://127.0.0.1:27017/E-commerce";
+
 
 main().then(() => {
     console.log("connection to DB");
